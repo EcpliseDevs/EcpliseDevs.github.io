@@ -1,0 +1,121 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>
+   Xadrix — Home of XOS
+  </title>
+  <meta content="Xadrix develops XOS, a modern desktop OS with a custom file system, full .RX app support, and liquid-glass design." name="description">
+  <style>
+   :root{
+  --bg-top:#e368af;
+  --bg-bottom:#79c0f0;
+  --card-bg:rgba(255,255,255,0.12);
+  --card-brd:rgba(255,255,255,0.25);
+  --text:#fff;
+  --muted:#d0d0d0;
+  --accent:#9f6fb4;
+}
+body{
+  margin:0;color:var(--text);
+  background:linear-gradient(180deg,var(--bg-top),var(--bg-bottom));
+  font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.hero{text-align:center;padding:40px 20px}
+.hero h1{font-size:2.5rem;margin:0}
+.tagline{color:var(--muted);margin-top:8px}
+.cta{margin-top:20px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.wrap{width:100%;max-width:960px;margin:0 auto;padding:20px;display:grid;gap:20px}
+.glass{backdrop-filter:saturate(150%) blur(16px);
+  -webkit-backdrop-filter:saturate(150%) blur(16px);
+  background:var(--card-bg);border:1px solid var(--card-brd);
+  border-radius:20px;padding:28px;
+  box-shadow:0 20px 60px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.08);
+}
+.btn{border:0;border-radius:12px;padding:12px 16px;
+  background:linear-gradient(180deg,#ffffffAA,#ffffff66);
+  color:#0a0a0a;font-weight:700;text-decoration:none;display:inline-block;
+}
+.btn.accent{background:linear-gradient(180deg,var(--accent),#6fb4e9);color:#0a0a0a}
+.btn:hover{filter:brightness(1.05)}
+.form{display:grid;gap:12px;margin-top:12px}
+.hidden{display:none}
+input,textarea{padding:12px 14px;border-radius:12px;
+  border:1px solid rgba(255,255,255,.25);
+  background:rgba(255,255,255,.08);color:var(--text);
+}
+input:focus,textarea:focus{border-color:var(--accent);outline:none;
+  box-shadow:0 0 0 3px rgba(158,208,255,.25)}
+.foot{text-align:center;padding:20px;color:var(--muted)}
+  </style>
+ </head>
+</body>
+<header class="hero glass">
+   <img alt="Xadrix logo" class="logo" height="72" src="/A.SVG" width="72">
+   <h1>
+   </div>
+  </header>
+  <main class="wrap">
+   <section class="glass" id="XOS">
+    <h2>
+     XOS — Built by Xadrix
+    </h2>
+    <p>
+     XOS is a modern desktop OS developed entirely by Xadrix. It features a sleek GUI, our custom file system "24", and full .RX app support.
+    </p>
+   </section>
+   <section class="glass">
+    <h2>
+     About Xadrix
+    </h2>
+    <p>
+     Xadrix started as a creative tech initiative dedicated to making free, custom-built software that redefines legacy platforms. Now almost fully independent, we control every part of XOS development.
+    </p>
+   </section>
+   <section class="glass">
+    <h2>
+     Xadrix Cloud
+    </h2>
+    <p>
+     Xadrix Cloud is your personal space for syncing files, apps, and settings with XOS and beyond.
+    </p>
+    </a>
+   </section>
+   <section class="glass contact">
+    <h2>
+     Contact Us
+    </h2>
+    <form class="form" method="POST" name="contact">
+     <input name="form-name" type="hidden" value="contact">
+     <p class="hidden">
+      <label>
+       Bot field:
+       <input name="bot-field">
+      </label>
+     </p>
+     <div class="field">
+      <label for="name">
+       Name
+      </label>
+      <input autocomplete="name" id="name" name="name" placeholder="Jane Appleseed" type="text">
+     </div>
+     <div class="field">
+      <label for="email">
+       Email *
+      </label>
+      <input autocomplete="email" id="email" name="email" placeholder="you@example.com" required="" type="email">
+     </div>
+     <textarea name="message" placeholder="Questions, feedback, or suggestions…" rows="4"></textarea>
+     <button class="btn" type="submit">
+      Send Message
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer class="foot">
+   <p>
+    © 2025 Xadrix — All rights reserved.
+   </p>
+  </footer>
+ 
+
+</body></html>
